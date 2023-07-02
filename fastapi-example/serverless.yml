@@ -7,8 +7,8 @@ provider:
   runtime: python3.8
   logs:
     httpApi: true
-  stage: ${env:STAGE}
-  region: ${env:REGION}
+  stage: dev
+  region: us-east-1
 
 functions:
   app:
